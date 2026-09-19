@@ -60,10 +60,4 @@ This is Project 1 in a series of Spring Boot learning projects, each built to de
 - Calling an external API with `RestClient`
 - Lombok, decompiled — understanding exactly what `@RequiredArgsConstructor` and `@Slf4j` generate, and where Lombok is and isn't the right tool
 
-## Known rough edges (on purpose)
 
-- No handling yet for when the DummyJSON call fails (times out, 500s, etc.) — an unhandled exception currently bubbles straight up as a raw 500. This gets fixed properly in the next project, once `@ConfigurationProperties`, profiles, and `@ControllerAdvice` are covered.
-
-## Next up
-
-**Weather Dashboard** — externalized config with `@ConfigurationProperties`, Spring profiles (dev/prod), and proper exception handling for failed external API calls.
